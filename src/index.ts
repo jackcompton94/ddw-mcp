@@ -2,7 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-const API_KEY = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcm9kLXVzZXItY2xpZW50OnYyaiIsImlzcyI6ImFnZW50OnYyajo6NzI0MTQwZTQtZDEyOS00YWUwLThiMzEtYzZkMTBlYTNhZjg0IiwiaWF0IjoxNjc1OTgyMzM3LCJyb2xlIjpbInVzZXJfYXBpX2FkbWluIiwidXNlcl9hcGlfZW50ZXJwcmlzZV9hZG1pbiIsInVzZXJfYXBpX3JlYWQiLCJ1c2VyX2FwaV93cml0ZSJdLCJnZW5lcmFsLXB1cnBvc2UiOnRydWUsInN2Yy1hY2NvdW50IjpmYWxzZX0.qXtccIMCIqDUHrq0UUGOhyoZM1gFerYfeCwomHVww3lBvmtypz_xwB2D4-PxDbN_r9ZFhKT6PC_8zHg-eci30Q";
+const API_KEY = "Bearer DW_AUTH_TOKEN";
 const API_URL = "https://api.data.world/v0/sql/jcorg/2023-nfl-stats?includeTableSchema=false";
 
 const compactSchema = `
