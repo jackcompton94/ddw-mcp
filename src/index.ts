@@ -2,7 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-const API_KEY = "Bearer DW_AUTH_TOKEN";
+const API_KEY = `Bearer ${process.env.DW_AUTH_TOKEN}`;
 const API_URL = "https://api.data.world/v0/sql/jcorg/2023-nfl-stats?includeTableSchema=false";
 
 const compactSchema = `
