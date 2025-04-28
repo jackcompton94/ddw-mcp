@@ -25,7 +25,7 @@ npm run build
 After building the project, register the MCP server with Claude CLI:
 
 ```bash
-claude mcp add ddw-mcp -- node ddw-mcp/build/index.js
+claude mcp add ddw-mcp -- env DW_AUTH_TOKEN=<your-token-here> node ddw-mcp/build/index.js
 ```
 
 ## Development
